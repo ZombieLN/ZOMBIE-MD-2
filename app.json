@@ -1,0 +1,21 @@
+{
+  "name": "ZOMBIE-MD",
+  "description": "Javascript WhatsApp bot made by ZOMBIE LOAD",
+  "logo": "https://github.com/ZombieOFC/Zombie-db/raw/main/Imageurl/file_00000000b2c87246bf4aeea722e8ac5a.png",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
